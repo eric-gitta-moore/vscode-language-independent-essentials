@@ -1,5 +1,8 @@
 # vscode-language-independent-essentials README
 
+
+## 包含的扩展
+
 ```json5
 [
   // optional
@@ -19,3 +22,8 @@
   "vizzuhq.code-viz-stat"
 ]
 ```
+
+## 建议安装（需要自行安装）
+
+- vim
+- Chinese
