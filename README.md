@@ -20,6 +20,7 @@
         "editorconfig.editorconfig",
         "tyriar.sort-lines",
         "uctakeoff.vscode-counter",
+        "vscode-icons-team.vscode-icons",
         "vizzuhq.code-viz-stat"
     ]
 ```
