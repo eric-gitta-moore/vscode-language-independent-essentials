@@ -4,6 +4,13 @@ All notable changes to the "vscode-language-independent-essentials" extension pa
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.6](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.5...v0.0.6) (2023-08-06)
+
+
+### Bug Fixes
+
+* add vscode-icons-team.vscode-icons ([829e2cf](https://github.com/james-curtis/vscode-language-independent-essentials/commit/829e2cf0f88ec249e639c6cc2f807dd4c855b299))
+
 ## [0.0.5](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.4...v0.0.5) (2023-08-06)
 
 
