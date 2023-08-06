@@ -5,9 +5,6 @@
 
 ```json5
 [
-        "__comment_optional",
-        "__comment_vscodevim.vim",
-
         "Gydunhn.vsc-essentials",
         "ritwickdey.liveserver",
         "donjayamanne.git-extension-pack",
