@@ -29,6 +29,17 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         uses: actions/checkout@v3
 
+      - name: Setup Node
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          npm install -g yo generator-code @vscode/vsce
+
       - name: Read Properties
         if: ${{ steps.release.outputs.release_created }}
         id: name
@@ -36,17 +47,6 @@ jobs:
         with:
           path: ./package.json
           property: name
-
-
-      - name: Setup node
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Install dependencies
-        if: ${{ steps.release.outputs.release_created }}
-        run: npm install -g yo generator-code @vscode/vsce
 
       - name: Package
         if: ${{ steps.release.outputs.release_created }}
