@@ -30,6 +30,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Read Properties
+        if: ${{ steps.release.outputs.release_created }}
         id: name
         uses:  ashley-taylor/read-json-property-action@v1.0
         with:
