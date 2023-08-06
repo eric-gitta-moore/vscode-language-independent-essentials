@@ -2,7 +2,7 @@
     "name": "vscode-language-independent-essentials",
     "displayName": "VSC Language Independent Essentials",
     "description": "语言无关相关，visual studio代码的扩展",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "JamesCurtis",
     "engines": {
         "vscode": "^1.35.0"
@@ -18,7 +18,6 @@
     "extensionPack": [
         "__comment_optional",
         "__comment_vscodevim.vim",
-
         "Gydunhn.vsc-essentials",
         "ritwickdey.liveserver",
         "donjayamanne.git-extension-pack",
