@@ -1,0 +1,15 @@
+{
+  "name": "vscode-language-independent-essentials",
+  "displayName": "VSC Language Independent Essentials",
+  "description": "VSC Language Independent Essentials",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "publisher.extensionName"
+  ]
+}
