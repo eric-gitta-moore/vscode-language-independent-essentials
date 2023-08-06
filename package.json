@@ -12,7 +12,8 @@
     "url": "https://github.com/james-curtis/vscode-language-independent-essentials.git"
   },
   "categories": [
-    "Extension Packs"
+    "Extension Packs",
+    "Custom Packs"
   ],
   "extensionPack": [
     "Gydunhn.vsc-essentials"
