@@ -1,0 +1,47 @@
+name: Build Plugin
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - main
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install -g yo generator-code @vscode/vsce
+
+      - name: Build
+        run: vsce package
+        
+      - name: Release
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: vscode-language-independent-essentials
+
+      - name: Upload Release Artifact
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          gh release upload ${{ steps.release.outputs.tag_name }} ./vscode-language-independent-essentials-${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.vsix
+
+        
+
