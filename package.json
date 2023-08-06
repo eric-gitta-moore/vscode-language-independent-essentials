@@ -1,15 +1,15 @@
 {
   "name": "vscode-language-independent-essentials",
   "displayName": "VSC Language Independent Essentials",
-  "description": "VSC Language Independent Essentials",
+  "description": "语言无关相关，visual studio代码的扩展",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.81.0"
+    "vscode": "^1.35.0"
   },
   "categories": [
     "Extension Packs"
   ],
   "extensionPack": [ 
-    "publisher.extensionName"
+    "Gydunhn.vsc-essentials"
   ]
 }
