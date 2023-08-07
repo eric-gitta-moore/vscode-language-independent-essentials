@@ -4,6 +4,13 @@ All notable changes to the "vscode-language-independent-essentials" extension pa
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.9](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.8...v0.0.9) (2023-08-07)
+
+
+### Bug Fixes
+
+* remove vincaslt.highlight-matching-tag ([104feba](https://github.com/james-curtis/vscode-language-independent-essentials/commit/104feba534a8253de46f835a7734b463168bf162))
+
 ## [0.0.8](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.7...v0.0.8) (2023-08-07)
 
 
