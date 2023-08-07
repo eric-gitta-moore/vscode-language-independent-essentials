@@ -4,6 +4,13 @@ All notable changes to the "vscode-language-independent-essentials" extension pa
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.10](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.9...v0.0.10) (2023-08-07)
+
+
+### Bug Fixes
+
+* add adam-bender.commit-message-editor ([11f8173](https://github.com/james-curtis/vscode-language-independent-essentials/commit/11f81731e0483290cbb6a1e908ea45ef7a8de48f))
+
 ## [0.0.9](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.8...v0.0.9) (2023-08-07)
 
 
