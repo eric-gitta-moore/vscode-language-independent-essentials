@@ -18,6 +18,7 @@
         "tyriar.sort-lines",
         "uctakeoff.vscode-counter",
         "vscode-icons-team.vscode-icons",
+        "adam-bender.commit-message-editor",
         "vizzuhq.code-viz-stat"
     ]
 ```
@@ -37,7 +38,9 @@
 
 
 ## 我的 settings.json
+
 > 尽量简洁为主
+
 ```json5
 {
     // my settings start
