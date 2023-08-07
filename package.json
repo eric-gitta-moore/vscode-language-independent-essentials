@@ -29,6 +29,7 @@
         "tyriar.sort-lines",
         "uctakeoff.vscode-counter",
         "vscode-icons-team.vscode-icons",
-        "vizzuhq.code-viz-stat"
+        "vizzuhq.code-viz-stat",
+        "vincaslt.highlight-matching-tag"
     ]
 }
