@@ -19,7 +19,8 @@
         "uctakeoff.vscode-counter",
         "vscode-icons-team.vscode-icons",
         "adam-bender.commit-message-editor",
-        "vizzuhq.code-viz-stat"
+        "vizzuhq.code-viz-stat",
+        "ryu1kn.partial-diff"
     ]
 ```
 
