@@ -4,6 +4,13 @@ All notable changes to the "vscode-language-independent-essentials" extension pa
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.11](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.10...v0.0.11) (2023-08-08)
+
+
+### Bug Fixes
+
+* add ryu1kn.partial-diff ([a07d95a](https://github.com/james-curtis/vscode-language-independent-essentials/commit/a07d95a78e6ab75ee8c843c4d7751f9202359e9f))
+
 ## [0.0.10](https://github.com/james-curtis/vscode-language-independent-essentials/compare/v0.0.9...v0.0.10) (2023-08-07)
 
 
